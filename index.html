@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CueFour — live pick-up desk</title>
+  <meta name="description" content="Four live-instrument bars of count-in so the next section lands together. Then the downbeat." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+<main>
+  <p class="eyebrow">WorkinWithAI · live chairs</p>
+  <h1>CueFour</h1>
+  <p class="lead">Live pick-up desk. Generators and unfinished stems dump cold into the first downbeat. Session players write four live bars of cue — kit click, bass root, nylon figure, piano door — so the section starts as a unit. Live piano, upright, nylon, kit, trumpet, violin. Not a song intro. Not a pre-hook lift. Not a tag.</p>
+  <p class="status" id="status">Seating chairs…</p>
+  <p class="eyebrow">Groove</p>
+  <div class="row" id="grooves"></div>
+  <p class="eyebrow">Cue</p>
+  <div class="row" id="recipes"></div>
+  <p class="eyebrow">Form · cue 1–4 · section 5–12</p>
+  <div class="bars" id="bars"></div>
+  <h2>Punch list</h2>
+  <pre id="punch"></pre>
+</main>
+<div class="dock">
+  <button id="playA">A · Section loop</button>
+  <button id="playB">B · Cue + section</button>
+  <button id="play8">4 · Cue only</button>
+  <button class="ghost" id="stop">Stop</button>
+  <button class="ghost" id="copy">Copy punch</button>
+</div>
+<script type="module" src="./app.js"></script>
+</body>
+</html>

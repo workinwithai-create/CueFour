@@ -1,0 +1,7 @@
+{
+  "name": "cuefour",
+  "private": true,
+  "scripts": {
+    "build": "mkdir -p dist && cp index.html styles.css app.js dist/ && cp -r public dist/public 2>/dev/null || true"
+  }
+}
